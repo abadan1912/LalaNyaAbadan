@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teruntuk... Lala</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <!-- Audio -->
+    <audio id="bgm" loop muted>
+        <source src="lagu.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Kontrol musik -->
+    <div class="music-control">
+        <button id="playBtn">▶</button>
+        <span>musik nya di play dulu sayang ❤️</span>
+    </div>
+
+    <div class="photo-frame"></div>
+    <div class="message">
+        teruntuk Siti Azzahra <br><br><br>
+        Haii sayang <br>
+        abadan mau minta maaf,
+        abadan minta maaf karena abadan membuat saya badmood <br>
+        maafin abadan ya sayang <br><br>
+        terimakasih sayang yaa udah baca surat dari abadan
+        sayang itu segalanya bagi abadan <br>
+        setengah diri abadan itu sayang
+        laa adalah penyemangat abadan <br>
+        laa adalah tempat abadan bersandarkan hidup
+        abadan sangat ingin kita selalu bersama <br>
+        abadan tidak ingin jauh-jauh dari sayang <br><br>
+        terimakasih sayang udah bertahan sama abadan sampai sejauh ini <br>
+        walaupun jalan yang kita lewati penuh lika liku <br>
+        tapi kita hebat, karena kita terus berjalan <br><br>
+        <br><br>
+        i love cantik nya abadan
+    </div>
+
+    <script>
+           const audio = document.getElementById('bgm');
+        const playBtn = document.getElementById('playBtn');
+
+        playBtn.addEventListener('click', () => {
+            audio.muted = false;
+            audio.play();
+        });
+    </script>
+    </script>
+
+</body>
+</html>
